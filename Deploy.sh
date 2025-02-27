@@ -18,4 +18,6 @@ sudo systemctl start nginx
 echo "NGINX iniciado"
 
 #Encender NROK
+echo "Encendiendo NROK..."
+sleep 5
 ngrok http 80
